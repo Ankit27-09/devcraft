@@ -94,40 +94,32 @@
   font-size: 25px;
 }
 
-#showcase, #showcase .container{
+.showcase{
+  display: flex;
+}
+
+
+.text1{
+  color: #fff;
+  width: 20%;
+  font-size:80px;
+  font-family:'Times New Roman', Times, serif;
+}
+.main-page{
   background-color: #7496DF;
-  overflow: auto;
 }
 
-#showcase .showcase-content .text1, #showcase .showcase-content .text2{
-  float: left;
-  padding-top: 170px;
-  font-size: 90px;
+.showcase{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
+.showcase-images{
+  display: flex;
 
-#showcase .showcase-content p{
-  font-size: 60px;
-  line-height: 1.2em;
-  color: white;
 }
-
-#showcase .showcase-images {
-  float: right;
-}
-
-#showcase .showcase-images img{
-  float: right;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-}
-
-
-.background-1 {
-  background-color:#7496DF;
-  height:100vh;
-
+.showcase-images img{
+  width: 250px;
 }
 
 .full-container {

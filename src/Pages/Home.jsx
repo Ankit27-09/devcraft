@@ -22,23 +22,19 @@ const Home = () => {
     <>
     <div className="main-page">
 
-    <div id="showcase">
-            <div class="container">
-                <div class="showcase-content">
-                    <p class="text1">Hey</p>
-                    <p class="text2">BMSITians</p>
-                    
-                </div>
+    <div className="showcase">
+            
+        <p class="text1">Hey BMSITians</p>
+                
                 <div class="showcase-images">
                     <img src={girl1} alt="Girl1"/>
                     <img src={boy} alt="Boy"/>
                     <img src={girl2} alt="Girl2"/>
                 </div>
-            </div>
+
+        </div>
         </div>
 
-
-    </div>
  <div className="know">
   <div className="know-img">
 
@@ -105,7 +101,7 @@ const Home = () => {
         <div class="right-content">
             <p> Designed by Canva </p>
         </div>
-    </footer>
+ </footer>
 </>
   )}
 
