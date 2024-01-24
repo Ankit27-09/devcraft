@@ -8,6 +8,8 @@
 
 #navbar a{
     color: rgb(13, 152, 198);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 #navbar .logo {
