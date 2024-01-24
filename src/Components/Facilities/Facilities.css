@@ -1,0 +1,28 @@
+.facilities-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height:355px;
+}
+
+.circle{
+    z-index: -1;
+    width: 218px;
+}
+
+.facilities-box img{
+    position: absolute;
+    top: 100px;
+    width: 218.688px;
+}
+
+.facilities-box p{
+    margin-top: 230px;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    color: #184B6B;
+}

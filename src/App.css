@@ -1,38 +1,95 @@
-.App {
+.fac-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.heading{
   text-align: center;
+  color: #257EAF;
+  font-size: 68px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.facilities{
+ display: flex;
+ flex-direction: column;
+  border: 2px solid;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.acaedmic{
+  background-color: #7496DF;
+  padding: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.acaedmic h1{
+  color: white;
+}
+
+.acad-box{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color:white;
+  width: 256px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.acad-main{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.acad-box p{
+  font-weight: bold;
+  font-size: 30px;
+  color: #184B6B;
+  letter-spacing: -0.013em;
+ text-align: center;
+ line-height: 1em;
+
+ width: 50%;
+  
+}
+
+.acad-box img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.know{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.know img{
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  
+  margin: auto;
+  
+}
+
+
+.about-info h1{
+  font-size: 48px;
+  color: #257EAF;
+  
+
+}
+
+.about-info{
+  width:50%;
+}
+
+.about-info p{
+  font-size: 25px;
 }

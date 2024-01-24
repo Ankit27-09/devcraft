@@ -1,0 +1,37 @@
+#navbar{
+    background: white;
+    color: white;
+    overflow: auto;
+    border-bottom: solid black;
+    padding-bottom: 0.5rem;
+}
+
+#navbar a{
+    color: rgb(13, 152, 198);
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 15px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
