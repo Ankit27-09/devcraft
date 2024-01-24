@@ -15,6 +15,7 @@ import about from '../images/about_image.png'
 import girl1 from '../images/girl1.png'
 import girl2 from '../images/girl2.png'
 import boy from '../images/boy.png'
+import imagelast from '../images/last_guy.png'
 
 const Home = () => {
   return (
@@ -80,8 +81,32 @@ const Home = () => {
     <Facilities img ={four} content={"Higher ​Education ​Centre​"} />
     </div>
 </div>
-    </>
-  )
-}
+
+
+<div className= "background-1"> 
+
+<div class="full-container">
+<div class= "image-1">  <img src={imagelast} alt="lastguy"/>
+</div>
+</div>
+
+<div class= "text-container">
+<p> Every year, many, <br/> many stupid people <br/> graduate from <br/>college. And if they <br/> can do it, so can you. </p> 
+</div>
+
+</div>
+<footer class="site-footer">
+
+        <div class="left-content">
+            <p>Team and Support</p>
+
+        </div>
+        
+        <div class="right-content">
+            <p> Designed by Canva </p>
+        </div>
+    </footer>
+</>
+  )}
 
 export default Home
