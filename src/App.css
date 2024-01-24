@@ -123,12 +123,19 @@
   width: 250px;
 }
 
-.full-container {
-  display:flex;
-  justify-content:center;
-  gap:0px;
+.background-1{
+  background-color: #257EAF;
+  display: flex;
+  justify-content:space-around;
+  
   align-content: center;
+}
 
+
+.image-1 img{
+  position: absolute;
+  width: 500px;
+  left: 200px;
 }
 
 .text-container {
