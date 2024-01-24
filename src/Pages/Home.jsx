@@ -10,12 +10,34 @@ import academics1 from '../images/academics1.png'
 import academics2 from '../images/academics2.png'
 import academics3 from '../images/academics3.png'
 import about from '../images/about_image.png'
-;
+
+
+import girl1 from '../images/girl1.png'
+import girl2 from '../images/girl2.png'
+import boy from '../images/boy.png'
 
 const Home = () => {
   return (
     <>
-    
+    <div className="main-page">
+
+    <div id="showcase">
+            <div class="container">
+                <div class="showcase-content">
+                    <p class="text1">Hey</p>
+                    <p class="text2">BMSITians</p>
+                    
+                </div>
+                <div class="showcase-images">
+                    <img src={girl1} alt="Girl1"/>
+                    <img src={boy} alt="Boy"/>
+                    <img src={girl2} alt="Girl2"/>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
  <div className="know">
   <div className="know-img">
 

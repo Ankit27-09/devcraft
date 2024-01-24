@@ -15,8 +15,8 @@ function App() {
 <Route path='/' element={<Navbar/>}>
       <Route index element={<Home />}/>
       <Route path='/about' element={<About />}/>
-      <Route path='/about' element={<Fac />}/>
-      <Route path='/about' element={<Acad/>}/>
+      <Route path='/facilities' element={<Fac />}/>
+      <Route path='/academics' element={<Acad/>}/>
 </Route>
 </Routes>
 

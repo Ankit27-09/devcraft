@@ -93,3 +93,32 @@
 .about-info p{
   font-size: 25px;
 }
+
+#showcase, #showcase .container{
+  background-color: #7496DF;
+  overflow: auto;
+}
+
+#showcase .showcase-content .text1, #showcase .showcase-content .text2{
+  float: left;
+  padding-top: 170px;
+  font-size: 90px;
+}
+
+#showcase .showcase-content p{
+  font-size: 60px;
+  line-height: 1.2em;
+  color: white;
+}
+
+#showcase .showcase-images {
+  float: right;
+}
+
+#showcase .showcase-images img{
+  float: right;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
