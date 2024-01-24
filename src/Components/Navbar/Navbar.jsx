@@ -1,11 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { Link, Outlet } from 'react-router-dom'
-import Navbar from './Components/Navbar/Navbar';
-import About from './Pages/About';
-import Fac from './Pages/Fac';
-import Acad from './Pages/Acad';
-import Home from './Pages/Home'
+
 
 const Navbar = () => {
   return (

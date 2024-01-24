@@ -1,6 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import About from './Pages/About';
+import Fac from './Pages/Fac';
+import Acad from './Pages/Acad';
+import Home from './Pages/Home'
 import { Route, Routes } from 'react-router-dom';
 
 

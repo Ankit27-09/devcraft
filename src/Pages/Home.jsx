@@ -1,10 +1,10 @@
 import React from 'react'
 
-import Facilities from './Components/Facilities/Facilities';
-import one from './images/one.png'
-import two from './images/two.png'
-import three from './images/three.png'
-import four from './images/four.png'
+import Facilities from '../Components/Facilities/Facilities';
+import one from '../images/one.png'
+import two from '../images/two.png'
+import three from '../images/three.png'
+import four from '../images/four.png'
 
 import academics1 from '../images/academics1.png'
 import academics2 from '../images/academics2.png'
